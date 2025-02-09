@@ -130,7 +130,7 @@ def shell_loop():
     commands = ["exit", "alias", "mkdir", "rm", "run", "fetch"]
     while True:
         try:
-            cmd = input_with_completion("mysh> ", commands)
+            cmd = input_with_completion("OS_DA1_Shell_Project> ", commands)
             if cmd.strip() == "exit":
                 save_history()
                 sys.exit(0)
