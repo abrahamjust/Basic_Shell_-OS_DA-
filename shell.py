@@ -152,5 +152,6 @@ def shell_loop():
 
 
 if __name__ == "__main__":
-    console.print("[bold green]Welcome to MyShell! Type 'exit' to quit.[/bold green]")
+    console.print("[bold green]Welcome to our OS DA1 project! Type 'exit' to quit.[/bold green]")
+    console.print("[bold green]Made by Abraham Justin 23MIA1027 and Arunkumaran 23MIA1171")
     shell_loop()
